@@ -1,7 +1,6 @@
-spring:
-  datasource:                                           # 数据源的相关配置
-    url: 'jdbc:mysql://localhost:3306/foodie-cloud-user?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai'
-    password: '{cipher}274a0e10ee634d926262fcc3d23cf1431bad5ae835ff6a85ea411737b3eefba0'
+mariadb:
+  url: 'jdbc:mysql://localhost:3306/foodie-cloud-user?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai'
+  password: '{cipher}274a0e10ee634d926262fcc3d23cf1431bad5ae835ff6a85ea411737b3eefba0'
 userservice:
   registration: 
     disabled: true
